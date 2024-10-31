@@ -1,0 +1,53 @@
+.card.rtpas_help {
+    max-width: unset;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.rtpas_help li {
+    list-style:square;
+    margin-left: 15px;
+}
+
+.rtpas_replacement_list_section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.rtpas_action {
+    padding-bottom: 20px;
+}
+
+.rtpas_replacement_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rtpas_replacement_list > * {
+    flex: 1;
+}
+
+.rtpas_replacement_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 15px;
+}
+.rtpas_replacement_row  > * {
+    flex: 1;
+}
+
+.rtpas_replacement_row .target, .rtpas_replacement_row .replacement  {
+    display: flex;
+    flex-direction: column;
+}
+
+.rtpas_replacement_row .target label, .rtpas_replacement_row .replacement label {
+    padding-bottom: 8px;
+}
+
+.rtpas_replacement_row button {
+    flex:unset;
+}
